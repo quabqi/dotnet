@@ -43,8 +43,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
 
 * Security / Identity Management
  * [NWebsec](https://github.com/NWebsec/NWebsec) - Security headers for ASP.NET applications.
- * [Thinktecture IdentityManager](https://github.com/thinktecture/Thinktecture.IdentityManager)
- * [Thinktecture IdentityServer](https://github.com/thinktecture/Thinktecture.IdentityServer.v3)
+ * [IdentityManager](https://github.com/IdentityManager/IdentityManager)
+ * [IdentityServer](https://github.com/IdentityServer/IdentityServer3)
  * [SKGL - Serial Key Generating Library](https://skgl.codeplex.com/)
 
 * Web CMS
@@ -95,6 +95,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
  * [ComparerExtensions](https://github.com/jehugaleahsa/comparerextensions) - Build IComparer and IEqualityComparer objects using natural language syntax.
  * [Cricket](https://github.com/fsprojects/Cricket) - Actor library
+ * [DateTimeExtensions](https://github.com/kappy/DateTimeExtensions) - Common Date Time operations on the form of extensions to System.DateTime, including holidays and working days calculations on several culture locales.
  * [DiffSharp](https://github.com/gbaydin/DiffSharp) - Automatic Differentiation Library
  * [DotNetOpenAuth](https://github.com/DotNetOpenAuth) - Library that adds support for your site visitors to login with their OpenIDs by just dropping an ASP.NET control onto your page.
  * [DropboxRestAPI](https://github.com/saguiitay/DropboxRestAPI) - DropBox .Net Client Library
@@ -102,9 +103,11 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Excel-DNA](https://github.com/Excel-DNA/ExcelDna) - Create high-performance, easy to deploy Excel add-ins with .NET - [Home](http://excel-dna.net)
  * [ExtraLINQ](https://github.com/mariusschulz/ExtraLINQ) - Various extension methods for working with .NET collections.
  * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle) - Simple, reliable feature toggles in .NET.
+ * [FlatMapper](https://github.com/kappy/FlatMapper) - A library to import and export data from and to plain text files in a Linq compatible way
  * [FluentBootstrap](https://github.com/somedave/FluentBootstrap)
  * [FluentConsole](https://github.com/ashmind/FluentConsole) - Alternative approach to colored console (`FluentConsole.Red.Text().Green.Text()`).
  * [FluentValidation](https://github.com/JeremySkinner/FluentValidation) - A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.
+ * [Flurl](https://github.com/tmenier/Flurl) - A fluent, portable, testable URL builder and HTTP client library.
  * [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) - WPF controls for the iconic font and CSS toolkit [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
  * [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) - A drag'n'drop framework for WPF.
  * [GeckoFX](https://bitbucket.org/geckofx) - Mozilla's Gecko layout engine wrapper in .NET.
@@ -139,7 +142,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [SmartIrc4net](https://github.com/meebey/SmartIrc4net) - IRC C# Library
  * [Splat](https://github.com/paulcbetts/splat) - A library to make things cross-platform that should be.
  * [SSH.NET](https://sshnet.codeplex.com/) - A client-side library for SSH, SCP and SFTP.
+ * [Strongly Typed Client API Generators for ASP.NET Web API](https://webapiclientgen.codeplex.com/) - Strongly Typed Client API Generators generate strongly typed client API in TypeScript and C# codes supporting desktop, Universal Windows, Android and iOS. 
  * [SuperSocket](https://github.com/kerryjiang/SuperSocket) - An extensible socket server engine which supports .NET and Mono
+ * [Sweet.Jayson](https://github.com/ocdogan/Sweet.Jayson) - Fast, reliable, easy to use, fully json.org compliant, thread safe C# JSON library for server side and desktop operations.
  * [VkSharp](https://github.com/kasthack/vksharp) - VK client library
  * [TomP2P.NET](https://github.com/tomp2p/TomP2P.NET) - A P2P-based high performance key-value pair storage library for .NET
  * [WampSharp](https://github.com/Code-Sharp/WampSharp) - A C# implementation of [The Web Application Messaging Protocol](http://wamp.ws) - a protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.
@@ -164,6 +169,7 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [.NET Image Processor](http://dotnetimageprocessor.codeplex.com/) - Extensible, chainable image processing library (GDI+ based).
  * [OpenTK](https://github.com/opentk/opentk) - OpenTK is a low-level, cross-platform binding to OpenGL, OpenGL ES, OpenCL and OpenAL, available for Windows, Linux, Mac OS X, BSD, Android and iOS.
  * [SharpDX](https://github.com/sharpdx/SharpDX) - SharpDX is a project delivering the full DirectX API for .NET on all Windows platforms.
+ * [numl](http://numl.net) - numl is a general purpose machine learning framework meant to simplify the data analysis process
 
 * Logging
  * [Exceptionless](https://github.com/exceptionless/Exceptionless) - Provides real-time .NET error reporting for your ASP.NET, Web API, WebForms, WPF, Console, and MVC apps. It organizes the gathered information into simple actionable data that will help your app become exceptionless!
@@ -311,9 +317,10 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
   * [Warewolf Easy Service Bus](https://github.com/Warewolf-ESB/Warewolf-ESB) - An open source easy to use service bus, built on numerous .Net technologies including WF (Windows Workflow Foundation), SignalR and WPF.
 
 * Distributed Caching and Computing
-  * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   * [CacheAdapter](https://bitbucket.org/glav/cacheadapter) - a .Net library allows developers to use unified-implemented cahce provider
+  * [CacheManager](https://github.com/MichaCo/CacheManager) - A configurable abstraction layer for caching. It supports various caches, like redis and memcached, and provides many advanced features, like layered cache, synchronization, serialization etc.
   * [Dache](https://github.com/ironyx/dache) - An open source distributed caching service, built on .NET 4.0 and using TCP sockets for communication.
+  * [Orleans](https://github.com/dotnet/orleans) - Framework that provides a straight-forward approach to building distributed high-scale computing applications using virtual actor model.
   
 * Windows Workflow
  * [Workflow Extractor](https://github.com/punitganshani/WorkflowExtractor) - Document Windows Workflow logic into a Word document or Excel sheet. 
